@@ -128,3 +128,45 @@
 
     animation: toActive 0.5s ease-in-out 1;
 }
+
+
+
+@media screen and (max-widht:900px){
+
+
+    .item .title {
+        font-size: 4.5rem;
+        color: #ffffff;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .item .refri {
+        z-index: 2;
+        width: 500px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-48%, -50%);
+    }
+
+
+   .item .fruta {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    z-index: 3;
+}
+
+
+
+
+
+    
+}
